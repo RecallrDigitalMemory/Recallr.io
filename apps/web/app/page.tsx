@@ -12,7 +12,7 @@ export default function Home() {
           className="mx-auto mb-6"
         />
         <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
-          Keep Memories, Not Chaos
+          Keep Memories, Not Chaos.
         </h1>
         <p className="text-lg text-gray-700 mb-8">
           Recallr helps you instantly find what you wrote, said, or saved — in chats, docs, or meetings.
