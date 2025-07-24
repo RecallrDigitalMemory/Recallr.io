@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Recallr",
   description: "Your digital memory assistant",
   icons: {
-    icon: "/favicon.ico", // Make sure this is in your apps/web/public folder
+    icon: "/favicon-v2.ico", // Make sure this is in your apps/web/public folder
   },
 };
 
