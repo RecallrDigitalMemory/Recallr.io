@@ -32,6 +32,29 @@ export default function Home() {
         </form>
       </div>
 
+      {/* Login Section */}
+      <section className="mt-20 w-full max-w-md bg-white p-6 rounded-lg shadow-md">
+        <h2 className="text-2xl font-bold mb-4 text-center">Login to Recallr</h2>
+        <form className="flex flex-col gap-4">
+          <input
+            type="email"
+            placeholder="Email"
+            className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <button
+            type="submit"
+            className="bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition"
+          >
+            Log In
+          </button>
+        </form>
+      </section>
+
       {/* Feature Highlights */}
       <section className="mt-24 max-w-4xl grid gap-12 sm:grid-cols-2">
         {[
@@ -77,4 +100,3 @@ export default function Home() {
     </main>
   );
 }
-
